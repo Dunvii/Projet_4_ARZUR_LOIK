@@ -649,6 +649,7 @@ h6,
 p,
 label,
 .btn,
+blockquote,
 a {
     font-family: "helvetica";
     font-weight: 400;
@@ -693,7 +694,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: black !important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -738,6 +739,14 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+}
+
+.black {
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.black:hover {
+    color: rgba(0, 0, 0, 1) !important;
 }
 
 .portfolio-thumb {
